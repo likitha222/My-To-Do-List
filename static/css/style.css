@@ -1,0 +1,50 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
+    background-color: rgb(200, 220, 228);
+}
+h1,
+h2{
+    text-align: center;
+}
+.input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#input_to-do{
+    width: 250px;
+    height: 28px;
+    font-size: 1.0rem;
+    border-radius: 8px;
+    border: none;
+}
+#add_to-do{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+}
+.to-do_container{
+    border: 2px ;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.to-do{
+    background-color:lightsteelblue;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 10px; 
+    align-items: center;
+    border-radius: 15px;
+}
+.actions > form{
+    display: inline;
+}
+.actions>form>button{
+        cursor: pointer ;
+}
